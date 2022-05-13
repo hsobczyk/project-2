@@ -1,4 +1,5 @@
 # Original Idea: https://automatetheboringstuff.com/2e/chapter17/
+# added gui, and the ability to add to a list
 from controller import *
 
 
