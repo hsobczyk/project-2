@@ -162,6 +162,13 @@ class Ui_MainWindow(object):
         self.exit_button.setFont(font)
         self.exit_button.setCursor(QtGui.QCursor(QtCore.Qt.PointingHandCursor))
         self.exit_button.setObjectName("exit_button")
+        self.seconds_label_2 = QtWidgets.QLabel(self.centralwidget)
+        self.seconds_label_2.setGeometry(QtCore.QRect(320, 10, 271, 31))
+        font = QtGui.QFont()
+        font.setFamily("Comic Sans MS")
+        font.setPointSize(16)
+        self.seconds_label_2.setFont(font)
+        self.seconds_label_2.setObjectName("seconds_label_2")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 812, 21))
@@ -183,6 +190,7 @@ class Ui_MainWindow(object):
         self.seconds_label.setText(_translate("MainWindow", "Seconds"))
         self.run_button.setText(_translate("MainWindow", "Run!"))
         self.exit_button.setText(_translate("MainWindow", "Exit"))
+        self.seconds_label_2.setText(_translate("MainWindow", "Program Location"))
 
 
 if __name__ == "__main__":
