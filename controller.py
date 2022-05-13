@@ -1,6 +1,8 @@
 from PyQt5.QtWidgets import *
 from view import Ui_MainWindow
 
+from schedule_launch import *
+
 class Controller(QMainWindow, Ui_MainWindow):
     """
     A class that controls functionality of the gui
